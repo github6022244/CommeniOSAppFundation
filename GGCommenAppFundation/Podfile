@@ -1,0 +1,55 @@
+# Uncomment the next line to define a global platform for your project
+
+source 'https://github.com/CocoaPods/Specs.git'
+#私有库 GGNetWorkManager 的 Source
+#source 'https://github.com/github6022244/GGNetWorkManagerSpec.git'
+
+platform :ios, '11.0'
+
+target 'GGCommenAppFundation' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #--------------第三方库--------------
+  pod 'IQKeyboardManager'
+  pod 'SDWebImage'
+  pod 'MJRefresh'
+  pod 'MJExtension'
+  pod 'Masonry'
+  pod 'YYKit'
+  pod 'CTMediator'
+  #pod 'MBProgressHUD'
+  #pod 'BAButton'
+  #pod 'AFNetworking'
+  #pod 'BANetManager'
+  pod 'QMUIKit', '~> 4.4.3'
+  #pod 'XMLReader'
+  #pod 'WechatOpenSDK'
+  #pod 'AliyunOSSiOS'
+  #pod 'LSTPopView'
+  pod 'JXBWebKit'
+  #pod 'JPush', '3.2.4-noidfa'
+  #pod 'YTKNetwork', '3.0.4'
+  pod 'SAMKeychain'
+  pod 'DZNEmptyDataSet'
+
+  #--------------自定义Pod库--------------
+  #网络管理器
+  #pod 'GGNetWorkManager'
+  pod 'GGNetWorkManagerPublic'
+  #分页模型
+  pod 'GGBasePageModel'
+  #多控制器滑动
+  pod 'GGFuncSliderViewController', '0.1.4'
+
+
+  target 'GGCommenAppFundationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GGCommenAppFundationUITests' do
+    # Pods for testing
+  end
+
+end

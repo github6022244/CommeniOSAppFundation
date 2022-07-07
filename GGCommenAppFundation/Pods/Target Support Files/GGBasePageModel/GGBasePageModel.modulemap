@@ -1,0 +1,6 @@
+framework module GGBasePageModel {
+  umbrella header "GGBasePageModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
