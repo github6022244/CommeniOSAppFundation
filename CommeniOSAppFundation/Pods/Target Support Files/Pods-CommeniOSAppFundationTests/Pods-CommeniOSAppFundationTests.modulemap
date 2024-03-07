@@ -1,0 +1,6 @@
+framework module Pods_CommeniOSAppFundationTests {
+  umbrella header "Pods-CommeniOSAppFundationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

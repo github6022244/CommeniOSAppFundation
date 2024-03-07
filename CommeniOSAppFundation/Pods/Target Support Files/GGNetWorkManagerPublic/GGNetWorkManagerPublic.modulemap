@@ -1,0 +1,6 @@
+framework module GGNetWorkManagerPublic {
+  umbrella header "GGNetWorkManagerPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}

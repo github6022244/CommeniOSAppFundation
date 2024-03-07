@@ -1,0 +1,73 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CommeniOSAppFundation' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #--------------常见第三方库--------------
+  pod 'XHLaunchAd'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
+  pod 'MJExtension'
+  pod 'SDWebImage'
+  pod 'SDCycleScrollView'
+  pod 'DZNEmptyDataSet'
+  #pod 'JXPagingView/Pager'
+  #pod 'JXCategoryView'
+  pod 'WechatOpenSDK'
+  pod 'DTCoreText'
+  #pod 'libOpenInstallSDK'
+  pod 'CRBoxInputView'
+  pod 'YYKit'
+  pod 'QMUIKit', '~> 4.6.3'
+  pod 'ReactiveObjC'
+  pod 'JXBWebKit'
+  pod 'SAMKeychain'
+  pod 'FCUUID'
+  pod 'GTMBase64'
+  pod 'BAButton'
+  pod 'TZImagePickerController'
+  pod 'FLEX', :configurations => ['Debug']
+  pod 'ZJJTimeCountDown'
+  pod 'SSZipArchive'
+  #pod 'MWPhotoBrowser'
+  pod 'ZLCollectionViewFlowLayout'
+  pod 'libOpenInstallSDK'
+  #pod 'TencentOpen', :git => 'https://github.com/Jdb156158/TencentOpenAPI.git'
+  #pod 'TencentOpenAPI'
+  #pod 'TencentOpenAPI-Mirror'
+  pod 'AlipaySDK-iOS'
+  pod 'lottie-ios', '~>2.5.3'
+  pod 'LSTTimer'
+
+  #电子书分类控制器使用的
+  #pod 'ZLCollectionViewFlowLayout'
+
+  #保利威视
+  #pod 'PolyvVodSDK'
+  #pod 'PLVSubtitle'
+  #pod 'PLVVodDanmu'
+  #pod 'PLVMasonry'
+
+  #--------------自定义Pod库--------------
+  #网络管理器
+  pod 'GGNetWorkManagerPublic'
+  #分页模型
+  pod 'GGBasePageModel'
+  #多控制器滑动
+  pod 'GGFuncSliderViewController', '0.1.8'
+
+  target 'CommeniOSAppFundationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CommeniOSAppFundationUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,6 @@
+framework module ZJJTimeCountDown {
+  umbrella header "ZJJTimeCountDown-umbrella.h"
+
+  export *
+  module * { export * }
+}
