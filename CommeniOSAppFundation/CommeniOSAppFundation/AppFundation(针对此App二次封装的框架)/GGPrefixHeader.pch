@@ -1,0 +1,23 @@
+//
+//  GGPrefixHeader.pch
+//  CXGLNewStudentApp
+//
+//  Created by GG on 2023/1/30.
+//
+
+#ifndef GGPrefixHeader_pch
+#define GGPrefixHeader_pch
+
+#import "GGBaseCXGAlertView.h"
+#import "GGBaseAlertWebView.h"
+#import "ProgressHUD.h"
+#import "GGCXGLNCommonDefine.h"
+#import "NSNumber+AppFundation.h"
+#import "NSNumber+YQ.h"
+//#import "XDSReaderHeader.h"
+
+//#import "CXGLNModulesDefine.h"
+
+#import "GGBaseKit.h"
+
+#endif /* GGPrefixHeader_pch */
