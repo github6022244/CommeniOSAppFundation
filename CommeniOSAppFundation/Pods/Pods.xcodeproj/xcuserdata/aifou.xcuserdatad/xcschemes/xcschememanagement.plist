@@ -284,26 +284,19 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
-		<key>YYKit.xcscheme</key>
+		<key>ZJJTimeCountDown.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>42</integer>
 		</dict>
-		<key>ZJJTimeCountDown.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>43</integer>
-		</dict>
 		<key>ZLCollectionViewFlowLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>43</integer>
 		</dict>
 		<key>libOpenInstallSDK.xcscheme</key>
 		<dict>

@@ -18,7 +18,7 @@ echo "mkdir -p ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
 
 COCOAPODS_PARALLEL_CODE_SIGN="${COCOAPODS_PARALLEL_CODE_SIGN:-false}"
-SWIFT_STDLIB_PATH="${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}"
+SWIFT_STDLIB_PATH="${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}"
 BCSYMBOLMAP_DIR="BCSymbolMaps"
 
 
@@ -207,7 +207,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XHLaunchAd/XHLaunchAd.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJJTimeCountDown/ZJJTimeCountDown.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZLCollectionViewFlowLayout/ZLCollectionViewFlowLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"
@@ -243,7 +242,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XHLaunchAd/XHLaunchAd.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZJJTimeCountDown/ZJJTimeCountDown.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZLCollectionViewFlowLayout/ZLCollectionViewFlowLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework"

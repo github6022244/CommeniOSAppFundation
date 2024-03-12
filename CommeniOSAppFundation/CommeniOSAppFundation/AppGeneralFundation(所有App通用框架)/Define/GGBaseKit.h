@@ -15,10 +15,11 @@
 #import <ReactiveObjC.h>
 #import <Masonry.h>
 #import <MJExtension.h>
-#import <YYKit.h>
+//#import <YYKit.h>
 #import <BAButton.h>
 
 #pragma mark ------------------------- 自己框架里的 -------------------------
+#import "YYKit.h"
 #import "GGCommenDefine.h"
 #import "UIColor+GG.h"
 #import "UILabel+GG.h"

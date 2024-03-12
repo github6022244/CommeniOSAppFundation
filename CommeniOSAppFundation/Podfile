@@ -22,7 +22,7 @@ target 'CommeniOSAppFundation' do
   pod 'DTCoreText'
   #pod 'libOpenInstallSDK'
   pod 'CRBoxInputView'
-  pod 'YYKit'
+  #pod 'YYKit'
   pod 'QMUIKit', '~> 4.6.3'
   pod 'ReactiveObjC'
   pod 'JXBWebKit'

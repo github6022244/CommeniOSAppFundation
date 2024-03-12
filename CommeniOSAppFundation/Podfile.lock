@@ -374,9 +374,6 @@ PODS:
     - FLAnimatedImage (~> 1.0.12)
   - YTKNetwork (3.0.6):
     - AFNetworking/NSURLSession (~> 4.0)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
   - ZJJTimeCountDown (1.0.3)
   - ZLCollectionViewFlowLayout (1.4.9)
 
@@ -409,7 +406,6 @@ DEPENDENCIES:
   - TZImagePickerController
   - WechatOpenSDK
   - XHLaunchAd
-  - YYKit
   - ZJJTimeCountDown
   - ZLCollectionViewFlowLayout
 
@@ -450,7 +446,6 @@ SPEC REPOS:
     - WechatOpenSDK
     - XHLaunchAd
     - YTKNetwork
-    - YYKit
     - ZJJTimeCountDown
     - ZLCollectionViewFlowLayout
 
@@ -490,10 +485,9 @@ SPEC CHECKSUMS:
   WechatOpenSDK: e79349b37d44c015210f39fd6d2379f0ec60efe2
   XHLaunchAd: 6320f9c68732667323072fc3a5f104e40fbe9cfe
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZJJTimeCountDown: 65f3a6c6e9ef67bf3906578b59c49c66155d8cc1
   ZLCollectionViewFlowLayout: c99024652ce9f0c57d33ab53052c9b85e4a936b7
 
-PODFILE CHECKSUM: ab4e190f465fc663fa83285961906280b74a5b85
+PODFILE CHECKSUM: 175ac019e2a1e8a4c2fdd80767b60da47f83395f
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
