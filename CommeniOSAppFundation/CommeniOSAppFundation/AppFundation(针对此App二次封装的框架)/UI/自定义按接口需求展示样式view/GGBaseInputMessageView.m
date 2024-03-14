@@ -11,7 +11,11 @@
 #import "InfoPicker.h"
 #import "BRDatePickerView.h"
 #import <TZImagePickerController.h>
-#import <YYKitMacro.h>
+#if __has_include(<YYKit/YYKit.h>)
+#import <YYKit/YYKitMacro.h>
+#else
+#import "YYKitMacro.h"
+#endif
 
 #import <objc/runtime.h>
 

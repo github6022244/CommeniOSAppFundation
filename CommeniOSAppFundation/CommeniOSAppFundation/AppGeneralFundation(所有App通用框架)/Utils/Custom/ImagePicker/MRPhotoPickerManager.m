@@ -12,7 +12,11 @@
 #import "WMZPermission.h"
 #import "WCLImagePicker.h"
 #import <SDWebImage/UIImage+Metadata.h>
-#import <YYKit.h>
+#if __has_include(<YYKit/YYKit.h>)
+#import <YYKit/YYKit.h>
+#else
+#import "YYKit.h"
+#endif
 #import <QMUITips.h>
 
 typedef NS_ENUM(NSInteger, MRPhotoPickerManagerUploadWay) {

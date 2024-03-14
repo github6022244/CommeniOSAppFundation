@@ -19,7 +19,11 @@
 #import <BAButton.h>
 
 #pragma mark ------------------------- 自己框架里的 -------------------------
+#if __has_include(<YYKit/YYKit.h>)
+#import <YYKit/YYKit.h>
+#else
 #import "YYKit.h"
+#endif
 #import "GGCommenDefine.h"
 #import "UIColor+GG.h"
 #import "UILabel+GG.h"

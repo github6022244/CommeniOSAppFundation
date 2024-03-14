@@ -6,7 +6,7 @@
 //  Copyright © 2020 ruikang. All rights reserved.
 //
 
-#import <YYKit/YYKit.h>
+#import "YYKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
